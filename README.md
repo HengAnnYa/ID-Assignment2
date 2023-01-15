@@ -19,7 +19,8 @@ In this section, you should go over the different parts of your project, and des
 ### Existing Features
 - Feature 1 - allows users X to achieve Y, by having them fill out Z
 - ...
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+
++ In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
 Another feature idea
