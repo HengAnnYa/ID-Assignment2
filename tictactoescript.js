@@ -1,4 +1,4 @@
-window.addEventListener('DOMContentLoaded',()=>{
+window.addEventListener('DOMContentLoaded',() => {
     const tiles = Array.from(document.querySelectorAll('.tile'));
     const playerDisplay = document.querySelector('.display-player');
     const resetButton = document.querySelector('#reset');
@@ -23,6 +23,20 @@ window.addEventListener('DOMContentLoaded',()=>{
         [2,4,6]
     ];
 
+    const announce = (type) => {
+        switch(type){
+            case PLAYERO_WON:
+                announcer.innerHTML = 'Player <span class="playerO">O</span> Won';
+                break;
+            case PLAYERX_WON:
+                announcer.innerHTML = 'Player <span class="playerX">X</span> Won';
+                break;
+            case TIE:
+                announcer.innerText = 'Tie';
+        }
+        announcer.classList.remove('hide');
+    };
+    
     const changePlayer = () => {
         playerDisplay.classList.remove(`player${currentPlayer}`);
         currentPlayer = currentPlayer === 'X' ? 'O' : 'X';
@@ -43,7 +57,7 @@ window.addEventListener('DOMContentLoaded',()=>{
     tile.forEach(tile, index) => {
         tile.addEventListener('click',() => userAction(tile,index));
 
-    }
+    });
 
     resetbutton.addEventListener('click',resetboard);
 
