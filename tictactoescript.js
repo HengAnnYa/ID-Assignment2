@@ -1,18 +1,18 @@
 window.addEventListener('DOMContentLoaded',()=>{
     const tiles = Array.from(document.querySelectorAll('.tile'));
-    const playerdisplay = document.querySelector('.display-player');
-    const resetbutton = document.querySelector('#reset');
+    const playerDisplay = document.querySelector('.display-player');
+    const resetButton = document.querySelector('#reset');
     const announcer = document.querySelector('.announcer');
 
     let board = ['','','','','','','','',''];
-    let currentplayer ='X';
-    let isgameactive = true;
+    let currentPlayer ='X';
+    let isGameActive = true;
 
     const PLAYERX_WON = 'PLAYERX_WON';
     const PLAYERO_WON = 'PLAYERO_WON';
     const TIE ='TIE';
 
-    const winningconditions = [
+    const winningConditions = [
         [0,1,2],
         [3,4,5],
         [6,7,8],
@@ -23,18 +23,25 @@ window.addEventListener('DOMContentLoaded',()=>{
         [2,4,6]
     ];
 
-    const useraction = (tile,index) => {
-        if(isValidAction(tile) && isgameactive){
-            tile.innertext = currentplayer;
-            tile.classlist.add(`player${currentplayer}`);
-            updateboard(index);
-            handleresultvalidation();
-            changeplayer();
+    const changePlayer = () => {
+        playerDisplay.classList.remove(`player${currentPlayer}`);
+        currentPlayer = currentPlayer === 'X' ? 'O' : 'X';
+        playerDisplay.innerText = currentPlayer;
+        playerDisplay.classList.add(`player${currentPlayer}`);
+    }
+
+    const userAction = (tile,index) => {
+        if(isValidAction(tile) && isGameActive){
+            tile.innerText = currentPlayer;
+            tile.classList.add(`player${currentPlayer}`);
+            updateBoard(index);
+            handleResultValidation();
+            changePlayer();
         }
     }
 
-    tile.foreach(tile, index) => {
-        tile.addEventListener('click',() => useraction(tile,index));
+    tile.forEach(tile, index) => {
+        tile.addEventListener('click',() => userAction(tile,index));
 
     }
 
