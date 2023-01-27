@@ -48,7 +48,7 @@ window.addEventListener('DOMContentLoaded',() => {
     if (!board.includes(''))
         announce(TIE);
     }
-    
+
     const announce = (type) => {
         switch(type){
             case PLAYERO_WON:
@@ -63,6 +63,18 @@ window.addEventListener('DOMContentLoaded',() => {
         announcer.classList.remove('hide');
     };
 
+    const isValidAction = (tile) => {
+        if (tile.innerText === 'X' || tile.innerText === 'O'){
+            return false;
+        }
+
+        return true;
+    };
+
+    const updateBoard =  (index) => {
+        board[index] = currentPlayer;
+    }
+    
     const changePlayer = () => {
         playerDisplay.classList.remove(`player${currentPlayer}`);
         currentPlayer = currentPlayer === 'X' ? 'O' : 'X';
