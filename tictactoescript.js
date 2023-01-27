@@ -24,14 +24,20 @@ window.addEventListener('DOMContentLoaded',()=>{
     ];
 
     const useraction = (tile,index) => {
-        if(IsValidAction(tile) && isgameactive){
+        if(isValidAction(tile) && isgameactive){
             tile.innertext = currentplayer;
-            tile.classlist.add('player${currentplayer}');
+            tile.classlist.add(`player${currentplayer}`);
             updateboard(index);
             handleresultvalidation();
             changeplayer();
         }
     }
+
+    tile.foreach(tile, index) => {
+        tile.addEventListener('click',() => useraction(tile,index));
+
+    }
+
     resetbutton.addEventListener('click',resetboard);
 
-})
+});
