@@ -5,7 +5,7 @@
 }
 
 .background{
-    background-color: aqua;
+    background-color: plum;
     height: 100vh;
     padding-top: 1px;
 }
@@ -38,7 +38,7 @@
 }
 
 .tile{
-    border: 1px solid purple;
+    border: 5px solid purple;
     min-width: 100px;
     min-height: 100px;
     display: flex;
