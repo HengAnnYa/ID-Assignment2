@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>ID asg2 Homepage</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet'>
   </head>
   <body>
     <style>
@@ -20,11 +22,24 @@
       #row-2 {
         margin-top: 10%
       }
+      body {
+        color: white;
+        background-image: url('https://i.pinimg.com/originals/d3/ae/3e/d3ae3e84bb6e1c79bda04463f0dff387.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;  
+        background-size: cover;
+      }
+      #header {
+        font-family: 'Sofia';
+      }
+      #title {
+        font-family: 'Audiowide';
+      }
     </style>
     </div>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary"  data-bs-theme="dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Logo here</a>
+        <a class="navbar-brand" href="#" id="header"><img src="https://th.bing.com/th/id/R.c6d4f53d4d840192a0294983d9e43364?rik=dbGjnXiht%2bqr5g&riu=http%3a%2f%2fblogs.bellevue.edu%2flibrary%2fwp-content%2fuploads%2f2017%2f01%2fVideo-Game-Controller-Icon-IDV-green.svg_-1024x1024.png&ehk=jRRgTQwyn%2fAVuo7Os92y0AjAu%2fUB5UXVrISj0hGq1SE%3d&risl=&pid=ImgRaw&r=0" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">Fun N Games!</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -64,41 +79,41 @@
           </div>
         </div>
       </div>
-    </nav>
-    <h1 class="text-center">Fun for all ages!</h1>
+    </nav><br>
+    <h1 class="text-center" id="header">Games for all ages . Play with friends . Earn cool rewards </h1>
     <div class = "row align-items-end" id="row-1">
       <div class= "col align-items-center">
-        <h2 class="text-center">Tic-Tac-Toe</h2>
+        <h2 class="text-center" id="title">Tic-Tac-Toe</h2>
         <div class="w-100"></div>
         <div class="text-center">
         <img src="https://th.bing.com/th/id/OIP.HhrjzrZQIQRMLXHW3YM44gHaHa?pid=ImgDet&rs=1" class="img-fluid" alt="tic-tac-toe" id="image">
         </div>
         <div class="w-100"></div><br>
-        <p class="text-center">Enjoy a classic game of tic-tac-toe with your friends!</p>
+        <p class="text-center" id="text">Enjoy a classic game of tic-tac-toe with your friends!</p>
         <div class="w-100"></div>
         <div class="d-flex justify-content-center">
         <button type="button" class="btn btn-primary">Play Now!</button></div>
         </div>
       <div class= "col align-items-center">
-        <h2 class="text-center">Guess the Song</h2>
+        <h2 class="text-center" id="title">Guess the Song</h2>
         <div class="w-100"></div>
         <div class="text-center">
         <img src="https://img.gamemonetize.com/uwuf4y2rjb01gs6d1hbfsxdzyvepperj/512x512.jpg" class="img-fluid" alt="guess-song" id="image">
         </div>
         <div class="w-100"></div><br>
-        <p class="text-center">Listen to a short music clip and guess the song!</p>
+        <p class="text-center" id="text">Listen to a short music clip and guess the song!</p>
         <div class="w-100"></div>
         <div class="d-flex justify-content-center">
           <button type="button" class="btn btn-primary">Play Now!</button></div>
           </div>
       <div class= "col align-items-center">
-        <h2 class="text-center">Clicker Game</h2>
+        <h2 class="text-center" id="title">Clicker Game</h2>
         <div class="w-100"></div>
         <div class="text-center">
         <img src="https://www.iconpacks.net/icons/2/free-click-icon-2399-thumb.png" class="img-fluid" alt="clicker-game" id="image">
         </div>
         <div class="w-100"></div><br>
-        <p class="text-center">Test your reaction skills with this simple clicker game!</p>
+        <p class="text-center" id="text">Test your reaction skills with this simple clicker game!</p>
         <div class="w-100"></div>
         <div class="d-flex justify-content-center">
           <button type="button" class="btn btn-primary">Play Now!</button></div>
@@ -106,37 +121,37 @@
     </div>
     <div class = "row align-items-end" id="row-2">
       <div class= "col align-items-center">
-        <h2 class="text-center">Flappy Bird</h2>
+        <h2 class="text-center" id="title">Flappy Bird</h2>
         <div class="w-100"></div>
         <div class="text-center">
           <img src="https://upload.wikimedia.org/wikipedia/en/0/0a/Flappy_Bird_icon.png" class="img-fluid" alt="flappy-bird" id="image">
         </div>
         <div class="w-100"></div><br>
-        <p class="text-center">Challenge yourself to a classic game of flappy bird!</p>
+        <p class="text-center" id="text">Challenge yourself to a classic game of flappy bird!</p>
           <div class="w-100"></div>
         <div class="d-flex justify-content-center">
           <button type="button" class="btn btn-primary">Play Now!</button></div>
           </div>
       <div class= "col align-items-center">
-        <h2 class="text-center">Draw and Share</h2>
+        <h2 class="text-center" id="title">Draw and Share</h2>
         <div class="w-100"></div>
         <div class="text-center">
         <img src="https://th.bing.com/th/id/R.591fec7aad83901189a9ed82c5033156?rik=0Cwyppm411duAA&riu=http%3a%2f%2fclipartmag.com%2fimages%2fscribble-clipart-24.png&ehk=jPOReQdqIt%2fgnWvq4Gm5RQfoEnLUGZ1XIlXqiosXjE4%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1" class="img-fluid" alt="draw" id="image">
         </div>
         <div class="w-100"></div><br>
-        <p class="text-center">Create fun drawings and share them with your friends!</p>
+        <p class="text-center" id="text">Create fun drawings and share them with your friends!</p>
         <div class="w-100"></div>
         <div class="d-flex justify-content-center">
           <button type="button" class="btn btn-primary">Play Now!</button></div>
           </div>
       <div class= "col align-items-center">
-        <h2 class="text-center">Placeholder</h2>
+        <h2 class="text-center" id="title">Placeholder</h2>
         <div class="w-100"></div>
         <div class="text-center">
         <img src="https://th.bing.com/th/id/OIP.KhvxHL2LdJB_jHMuNw6DsQHaHa?pid=ImgDet&rs=1" class="img-fluid" alt="placeholder" id="image">
         </div>
         <div class="w-100"></div><br>
-        <p class="text-center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+        <p class="text-center" id="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
         <div class="w-100"></div>
         <div class="d-flex justify-content-center">
           <button type="button" class="btn btn-primary">Play Now!</button></div>
