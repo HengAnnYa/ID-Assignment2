@@ -9,8 +9,12 @@ function startGame() {
 }
 
 var myGameArea = {
+<<<<<<< HEAD
  canvas: document.createElement("canvas"),
 
+=======
+  canvas: document.createElement("canvas"),
+>>>>>>> 1aab0e9329d5d65bb3f3b131d3b6b50b4e61f5ea
   start: function () {
     this.canvas.width = window.innerWidth;
     this.canvas.height = window.innerHeight;
