@@ -5,7 +5,7 @@
 }
 
 .background {
-    background-color: #12181B;
+    background-color: blueviolet;
     height: 100vh;
     padding-top: 1px;
 }
@@ -50,11 +50,11 @@
 }
 
 .playerX {
-    color: #09C372;
+    color: black;
 }
 
 .playerO {
-    color: #498AFB;
+    color: white;
 }
 
 .controls {
@@ -76,9 +76,9 @@
 }
 
 .restart {
-    background-color: #498AFB;
+    background-color: paleturquoise;
 }
 
 #reset {
-    background-color: #FF3860;
+    background-color: pink;
 }
