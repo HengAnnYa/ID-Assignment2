@@ -1,4 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Comfortaa');
 
-$color-dark: #333344;
+html, body
+{
+	margin: 0;
+	overflow: hidden;
+	height: 100%;
+	width: 100%;
+	position: relative;
+	font-family: 'Comfortaa', cursive;
+}
+
+
 
