@@ -18,7 +18,7 @@ class Stage {
             alpha: false
         });
         this.renderer.setSize(window.innerWidth, window.innerHeight);
-        this.renderer.setClearColor('#D0CBC7', 1);
+        this.renderer.setClearColor('white', 1);
         this.container.appendChild(this.renderer.domElement);
         // scene
         this.scene = new THREE.Scene();
@@ -196,9 +196,7 @@ class Game {
         });
         document.addEventListener('touchstart', e => {
             e.preventDefault();
-            // this.onAction();
-            // ☝️ this triggers after click on android so you
-            // insta-lose, will figure it out later.
+            
         });
     }
     updateState(newState) {

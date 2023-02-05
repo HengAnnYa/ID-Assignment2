@@ -20,7 +20,7 @@ body {
   text-align: center;
   font-size: 10vh;
   transition: transform 0.5s ease;
-  color: black;
+  color :purple  ;
   transform: translatey(-200px) scale(1);
 }
 #container #game {
@@ -45,7 +45,7 @@ body {
   transition: opacity 0.5s ease, transform 0.5s ease;
   opacity: 0;
   transform: translatey(-50px);
-  color: brown;
+  color: orangered;
 }
 #container .game-over h2 {
   margin: 0;
@@ -67,10 +67,10 @@ body {
   transition: opacity 0.5s ease, transform 0.5s ease;
   opacity: 0;
   transform: translatey(-50px);
-  border: 3px solid #1919dd;
+  border: 3px solid #19acdd;
   padding: 10px 20px;
-  background-color: transparent;
-  color: #0a0a7e;
+  background-color: pink;
+  color: #1313f1;
   font-size: 30px;
 }
 #container #instructions {
