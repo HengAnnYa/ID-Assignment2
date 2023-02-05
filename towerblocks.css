@@ -10,5 +10,23 @@ html, body
 	font-family: 'Comfortaa', cursive;
 }
 
+#container
+{
+	width: 100%;
+	height: 100%;
+	
+	#score
+	{
+		position: absolute;
+		top: 20px;
+		width: 100%;
+		text-align: center;
+		font-size: 10px;
+		transition: transform 0.5s ease;
+		color: black;
+		transform: translatey(-200px) scale(1);
+	}
+
+    
 
 
