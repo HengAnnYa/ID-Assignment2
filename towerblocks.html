@@ -8,6 +8,62 @@
 </head>
 
 <body>
+    <nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary"  data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" id="header"><img src="https://th.bing.com/th/id/R.c6d4f53d4d840192a0294983d9e43364?rik=dbGjnXiht%2bqr5g&riu=http%3a%2f%2fblogs.bellevue.edu%2flibrary%2fwp-content%2fuploads%2f2017%2f01%2fVideo-Game-Controller-Icon-IDV-green.svg_-1024x1024.png&ehk=jRRgTQwyn%2fAVuo7Os92y0AjAu%2fUB5UXVrISj0hGq1SE%3d&risl=&pid=ImgRaw&r=0" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">Fun N Games!</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Weekly Leaderboard</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Rewards</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle dropbtn" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" onclick="userFunction()">
+                  Socials
+                </a>
+                <ul class="dropdown-menu" id="userDropdown">
+                  <li><a class="dropdown-item" href="#">Friendlist</a></li>
+                  <li><a class="dropdown-item" href="#">Notifications</a></li>
+                  <li><a class="dropdown-item" href="#">Settings</a></li>
+                </ul>
+              </li>
+            </ul>
+            <div class="p-2 g-col-6" id="search-bar">
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            </div>
+            <div class="p-2 g-col-6">
+            <form class="d-flex justify-content-start">
+              <button class="btn profile-btn" type="button"><img src="https://cdn1.iconfinder.com/data/icons/creative-round-ui/223/8-512.png" alt="my-profile" width="40" height="40" class="d-inline-block align-text-top"></button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle setting-dropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" onclick="settingsFunction()">
+                  Settings
+              </a>
+              <ul class="dropdown-menu setting" id="settingDropdown">
+                <li><a class="dropdown-item" href="#">Privacy Settings</a></li>
+                <li><a class="dropdown-item" href="#">Sign out</a></li>
+                <li><a class="dropdown-item" href="#">Reset account</a></li>
+              </ul>
+                  </li>
+                </ul>
+              </div>
+            </form>
+            </div>
+          </div>
+        </div>
+      </nav>
     <div id="container">
         <div id="game"></div>
         <div id="score">0</div>
