@@ -1,35 +1,20 @@
-.row {
-    height: 200px;
-  }
-
-  #image {
-    max-width: 50%;
-  }
-  #row-1 {
-    margin-top: 5%;
-  }
-  #row-2 {
-    margin-top: 25%
-  }
-  body {
-    color: white;
-  }
-  #header {
+#header {
     font-family: 'Sofia';
-  }
-  #title {
-    font-family: 'Audiowide';
-  }
-  #search-bar {
+}
+
+#search-bar {
     margin:auto;
-  }
-  #search {
+}
+#search {
     width: auto;
     max-width: 700px;
     min-width: 300px;
-  }
-  .profile-btn {
+}
+.profile-btn {
     background: none;
     margin:0;
     padding:0;
-  }
+}
+.nav{
+    height: 10%;
+}

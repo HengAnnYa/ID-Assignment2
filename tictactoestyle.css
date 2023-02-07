@@ -4,6 +4,10 @@
     font-family: Aladin;
 }
 
+body{
+    background-color: blueviolet;
+}
+
 .background {
     background-color: rgb(155, 55, 250);
     height: 100vh;
