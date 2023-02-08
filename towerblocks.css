@@ -15,7 +15,7 @@ body {
 }
 #container #score {
   position: absolute;
-  top: 30px;
+  top: 100px;
   width: 100%;
   text-align: center;
   font-size: 10vh;
@@ -67,16 +67,16 @@ body {
   transition: opacity 0.5s ease, transform 0.5s ease;
   opacity: 0;
   transform: translatey(-50px);
-  border: 3px solid #19acdd;
+  border: 5px solid #19acdd;
   padding: 10px 20px;
   background-color: pink;
   color: #1313f1;
-  font-size: 30px;
+  font-size: 50px;
 }
 #container #instructions {
   position: absolute;
   width: 100%;
-  top: 16vh;
+  top: 40vh;
   left: 0;
   text-align: center;
   transition: opacity 0.5s ease, transform 0.5s ease;
