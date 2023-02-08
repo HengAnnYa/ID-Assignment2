@@ -16,8 +16,12 @@
       }
 
       #anime {
-        max-width: 50%;
-        
+        max-width: 100%;
+        max-height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+
       }
       #row-1 {
         margin-top: 5%;
@@ -138,7 +142,17 @@
         <h2 class="text-center" id="title">Flappy Bird</h2>
         <div class="w-100"></div>
         <div class="text-center">
-          <img src="https://prod.cloud.rockstargames.com/crews/sc/0556/10149530/publish/emblem/emblem_512.png" class="img-fluid" alt="flappy-bird" id="image">
+          <div class="img-fluid" alt="flappy-bird" id="anime"></div>
+          <script>
+            var amination = bodymovin.loadAnimation({
+              container: document.getElementById('anime'),
+              path: '7064-bird-fly.json',
+              render: 'svg',
+              loop: true,
+              autoplay: true,
+              name: 'fb'
+            });
+          </script>
         </div>
         <div class="w-100"></div><br>
         <p class="text-center" id="text">Challenge yourself to a classic game of flappy bird!</p>
@@ -152,7 +166,17 @@
         <h2 class="text-center" id="title">Tower Blocks</h2>
         <div class="w-100"></div>
         <div class="text-center">
-        <img src="https://lh3.googleusercontent.com/00UpPp5BsJJ7WGAEF2SEDbNCtYYC5wdqvMQu_vq7d1XagdBYf01ym-QDGrCdWOREkjCY=w1200-h630-p-k-no-nu" class="img-fluid" alt="draw" id="image">
+        <div class="img-fluid" alt="draw" id="anime"></div>
+        <script>
+          var amination = bodymovin.loadAnimation({
+            container: document.getElementById('anime'),
+            path: '113890-isometric-layers.json',
+            render: 'svg',
+            loop: true,
+            autoplay: true,
+            name: 'tb'
+          });
+        </script>
         </div>
         <div class="w-100"></div><br>
         <p class="text-center" id="text">Build a tower and balance as high as you can to achieve a high score!</p>
@@ -164,8 +188,18 @@
         <h2 class="text-center" id="title">Tetris</h2>
         <div class="w-100"></div>
         <div class="text-center">
-        <img src="https://th.bing.com/th/id/OIP.yJFr6td2gzQojH8Cp2Vv-QHaHa?pid=ImgDet&w=500&h=500&rs=1" class="img-fluid" alt="placeholder" id="image">
+        <div class="img-fluid" alt="placeholder" id="anime"></div>
         </div>
+        <script>
+          var amination = bodymovin.loadAnimation({
+            container: document.getElementById('anime'),
+            path: '22294-tetris-game-animaation.json',
+            render: 'svg',
+            loop: true,
+            autoplay: true,
+            name: 'tb'
+          });
+        </script>
         <div class="w-100"></div><br>
         <p class="text-center" id="text">It's simply tetris.</p>
         <div class="w-100"></div>
