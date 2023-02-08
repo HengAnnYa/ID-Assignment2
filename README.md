@@ -60,5 +60,6 @@ If this section grows too long, you may want to split it off into a separate fil
 The text for section Y was copied from the Wikipedia article Z
 ### Media
 The photos used in this site were obtained from ...
+- The background for the main page is from online, i wanted to find a picture where someone is playing online games, hence i used this picture.(https://www.wallpapertip.com/wmimgs/155-1551194_anime-gamer-girl-wallpaper-4k.jpg)
 ### Acknowledgements
 I received inspiration for this project from X
