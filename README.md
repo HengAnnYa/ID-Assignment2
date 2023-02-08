@@ -57,7 +57,8 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ## Credits
 ### Content
-The text for section Y was copied from the Wikipedia article Z
+The game tic tac toe is refered to a youtube video(https://www.youtube.com/watch?v=B3pmT7Cpi24) that show how to create tic tac toe with html, css and js.
+The game tower blocks is refered to a youtube video(https://www.youtube.com/watch?v=lqCev8OM1y8\) that show how to make the game with html, css and js.
 ### Media
 The photos used in this site were obtained from ...
 - The background for the main page is from online, i wanted to find a picture where someone is playing online games, hence i used this picture.(https://www.wallpapertip.com/wmimgs/155-1551194_anime-gamer-girl-wallpaper-4k.jpg)
