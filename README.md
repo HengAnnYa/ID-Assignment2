@@ -19,20 +19,21 @@ This section is also where you would share links to any wireframes, mockups, dia
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
 
 ### Existing Features
-- Feature 1 - 6 simple games for users to pick and play.
-- Feature 2 - Randomiser button that randomly chooses one game out of the 6 when pressed.
-- Feature 3 - Menu and setting options
-- Feature 4 - Account feature
-- Feature 5 - Add friend feature and friend list
-- Feature 5 - Leaderboard feature to compare your highscore to that of other players or people in your friendlist.
-- Feature 6 - Point system where players gain points every time they break a certain amount of points in each minigame.
-- Feature 7 - Social Media option to share your highscores. 
-- Feature 8 - System where you can exchange points for rewards or power ups in game. 
+- Feature 1 - 4 simple games for users to pick and play.
+- Feature 2 - Menu and setting options
+- Feature 3 - Account feature
+- Feature 4 - Game over screens and 'play again' options upon a game ending. 
+- Feature 5 - Navbar with dropdowns that link to main page and allows user to access user account. 
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
-- Feature - 
+- Feature 6 - Randomiser button that allows users to play a random game when pressed. 
+- Feature 7 - Add friend feature and friend list
+- Feature 8 - Leaderboard feature to compare your highscore to that of other players or people in your friendlist.
+- Feature 9 - Point system where players gain points every time they break a certain amount of points in each minigame.
+- Feature 10 - Social Media option to share your highscores. 
+- Feature 11 - System where you can exchange points for rewards or power ups in game. 
 
 ## Technologies Used
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
@@ -41,6 +42,7 @@ In this section, you should mention all of the languages, frameworks, libraries,
 - The game tower blocks is refered to a youtube video(https://www.youtube.com/watch?v=lqCev8OM1y8\) that show how to make the game with html, css and js.
 - The tetris game code is taken from: https://gist.github.com/straker/3c98304f8a6a9174efd8292800891ea1
 - The flappy bird game code is taken from w3schools(https://www.w3schools.com/graphics/game_intro.asp)
+- The nav bar is obtained from bootstrap tutorials(https://getbootstrap.com/docs/5.1/components/navbar/)
 
 ## Testing
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
@@ -60,7 +62,6 @@ If this section grows too long, you may want to split it off into a separate fil
 ### Content
 
 ### Media
-The photos used in this site were obtained from ...
 - The background for the main page is from online, i wanted to find a picture where someone is playing online games, hence i used this picture.(https://www.wallpapertip.com/wmimgs/155-1551194_anime-gamer-girl-wallpaper-4k.jpg)
 - The backround used on the sign-up and flappy bird id obtained from online(https://i.pinimg.com/originals/d3/ae/3e/d3ae3e84bb6e1c79bda04463f0dff387.jpg)
 ### Acknowledgements
