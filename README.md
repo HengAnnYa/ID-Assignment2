@@ -39,6 +39,8 @@ In this section, you should mention all of the languages, frameworks, libraries,
 - I followed according to youtube video (https://www.youtube.com/watch?v=xgU8kg_uFr0) to use lottie animation for the main page.
 -The game tic tac toe is refered to a youtube video(https://www.youtube.com/watch?v=B3pmT7Cpi24) that show how to create tic tac toe with html, css and js.
 -The game tower blocks is refered to a youtube video(https://www.youtube.com/watch?v=lqCev8OM1y8\) that show how to make the game with html, css and js.
+-The tetris game code is taken from: https://gist.github.com/straker/3c98304f8a6a9174efd8292800891ea1
+-The flappy bird game code is taken from w3schools(https://www.w3schools.com/graphics/game_intro.asp)
 
 ## Testing
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
