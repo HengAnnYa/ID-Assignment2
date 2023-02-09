@@ -12,53 +12,61 @@ User Stories:
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
 
-As a user type, I want to perform an action, so that I can achieve a goal.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory) Include the Adobe XD wireframe as a folder. You can include the XD share url.
+Wireframe links (does not work on microsoft edge):
+- main page: https://xd.adobe.com/view/bd9eac8a-27f7-4c7c-a4b7-1b9859a09083-e8cd/
+- tic-tac-toe (mobile): https://xd.adobe.com/view/c3cda8db-9b2b-4418-a5a9-c22361474787-969e/
+- tic-tac-toe (web): https://xd.adobe.com/view/0f608188-8b48-47e9-aff9-739937d7fd38-5a33/
+- tower blocks (mobile): https://xd.adobe.com/view/4bfcd2b8-4588-454d-af27-821d80c72cd9-1eaf/
+- tower blocks (web): https://xd.adobe.com/view/19d2829a-f731-44fd-b4d0-edec7f678139-4c81/
+- game menu page: https://xd.adobe.com/view/0bb70aa7-e067-4308-a1c9-b15cb101a607-5ee4/
 
 ## Features
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
 
 ### Existing Features
-- Feature 1 - 6 simple games for users to pick and play.
-- Feature 2 - Randomiser button that randomly chooses one game out of the 6 when pressed.
-- Feature 3 - Menu and setting options
-- Feature 4 - Account feature
-- Feature 5 - Add friend feature and friend list
-- Feature 5 - Leaderboard feature to compare your highscore to that of other players or people in your friendlist.
-- Feature 6 - Point system where players gain points every time they break a certain amount of points in each minigame.
-- Feature 7 - Social Media option to share your highscores. 
-- Feature 8 - System where you can exchange points for rewards or power ups in game. 
+- Feature 1 - 4 simple games for users to pick and play.
+- Feature 2 - Menu and setting options
+- Feature 3 - Account feature
+- Feature 4 - Game over screens and 'play again' options upon a game ending. 
+- Feature 5 - Navbar with dropdowns that link to main page and allows user to access user account. 
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
-- Feature - 
+- Feature 6 - Randomiser button that allows users to play a random game when pressed. 
+- Feature 7 - Add friend feature and friend list
+- Feature 8 - Leaderboard feature to compare your highscore to that of other players or people in your friendlist.
+- Feature 9 - Point system where players gain points every time they break a certain amount of points in each minigame.
+- Feature 10 - Social Media option to share your highscores. 
+- Feature 11 - System where you can exchange points for rewards or power ups in game. 
 
 ## Technologies Used
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 - I followed according to youtube video (https://www.youtube.com/watch?v=xgU8kg_uFr0) to use lottie animation for the main page.
--The game tic tac toe is refered to a youtube video(https://www.youtube.com/watch?v=B3pmT7Cpi24) that show how to create tic tac toe with html, css and js.
--The game tower blocks is refered to a youtube video(https://www.youtube.com/watch?v=lqCev8OM1y8\) that show how to make the game with html, css and js.
+- The game tic tac toe is refered to a youtube video(https://www.youtube.com/watch?v=B3pmT7Cpi24) that show how to create tic tac toe with html, css and js.
+- The game tower blocks is refered to a youtube video(https://www.youtube.com/watch?v=lqCev8OM1y8\) that show how to make the game with html, css and js.
+- The tetris game code is taken from: https://gist.github.com/straker/3c98304f8a6a9174efd8292800891ea1
+- The flappy bird game code is taken from w3schools(https://www.w3schools.com/graphics/game_intro.asp)
+- The nav bar is obtained from bootstrap tutorials(https://getbootstrap.com/docs/5.1/components/navbar/)
 
 ## Testing
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
-- Contact form:
-  1. Go to the "Contact Us" page
+- Sign up form:
+  1. Go to the "Sign Up" section under the settings dropdown. The user will be be prompted to make an account and be redirected to a signup sheet. 
   2. Try to submit the empty form and verify that an error message about the required fields appears
   3. Try to submit the form with an invalid email address and verify that a relevant error message appears
   4. Try to submit the form with all inputs valid and verify that a success message appears.
-  5. In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+- Responsive:
+  1. Our navbar is responsive, collapsing into a hamburger dropdown menu on smaller screens and expanding into a full bar on larger screens. 
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 ## Credits
 ### Content
 
 ### Media
-The photos used in this site were obtained from ...
 - The background for the main page is from online, i wanted to find a picture where someone is playing online games, hence i used this picture.(https://www.wallpapertip.com/wmimgs/155-1551194_anime-gamer-girl-wallpaper-4k.jpg)
+- The backround used on the sign-up and flappy bird id obtained from online(https://i.pinimg.com/originals/d3/ae/3e/d3ae3e84bb6e1c79bda04463f0dff387.jpg)
 ### Acknowledgements
-I received inspiration for this project from X
+

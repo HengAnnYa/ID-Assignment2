@@ -13,17 +13,57 @@
     <style>
       .row {
         height: 200px;
+        margin-bottom: 20px;
+      }
+      #tt{
+        width: 50%;
+        height: 50%;
+        margin-left: 25%;
+        display: flex;
+        justify-content: center;
       }
 
-      
-      #anime {
-        max-width: 100%;
-        max-height: 100%;
-        width: 100px;
+      #fb{
+        margin-left: 5%;
+        width: 90%;
+        height: 40%;
         display: flex;
-        justify-content: space-around;
+      }
+
+      #tb{
+        width: 50%;
+        height: 50%;
+        margin-left: 25%;
+        display: flex;
+        text-align: center;
+      }
+      #t{
+        width: 55%;
+        height: 100%;
+        margin-left: 25%;
+        text-align: center;
       }
       
+      @media screen and (max-width: 900px) {
+        .row {
+          width: 50%;
+          display: flex;
+          flex-direction: column;
+        }
+      }
+
+      @media screen and (max-width: 600px) {
+        .row {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+        }
+      }
+      
+      #text{
+        font-size: 25px;
+      }
+
       #row-1 {
         margin-top: 5%;
       }
@@ -41,8 +81,15 @@
       #header {
         font-family: 'Sofia';
       }
+
+      #header2 {
+        font-family: 'Sofia';
+        font-size: 50px;
+      }
+
       #title {
         font-family: 'Audiowide';
+        font-size: 35px;
       }
       #search-bar {
         margin:auto;
@@ -56,6 +103,10 @@
         background: none;
         margin:0;
         padding:0;
+      }
+
+      .d-flex{
+        margin-bottom: 15%;
       }
 
     </style>
@@ -115,16 +166,16 @@
         </div>
       </div>
     </nav><br>
-    <h1 class="text-center" id="header">Games for all ages . Play with friends . Earn cool rewards </h1>
+    <h1 class="text-center" id="header2">Games for all ages . Play with friends . Earn cool rewards </h1>
     <div class = "row align-items-end" id="row-1">
       <div class= "col align-items-center">
         <h2 class="text-center" id="title">Tic-Tac-Toe</h2>
         <div class="w-100"></div>
         <div class="text-center">
-        <div class="img-fluid" alt="tic-tac-toe" id="anime">
+        <div class="img-fluid" alt="tic-tac-toe" id="tt">
         <script>
           var amination = bodymovin.loadAnimation({
-            container: document.getElementById('anime'),
+            container: document.getElementById('tt'),
             path: '119665-tic-tac-toe-1.json',
             render: 'svg',
             loop: true,
@@ -136,7 +187,7 @@
         </div>
         <div class="w-100"></div><br>
         <p class="text-center" id="text">Enjoy a classic game of tic-tac-toe with your friends!</p>
-        <div class="w-100"></div>
+        <div></div>
         <div class="d-flex justify-content-center">
           <a href="tictactoe.html" type="button" class="btn btn-primary">Play Now!</a></div>
         </div>
@@ -144,10 +195,10 @@
         <h2 class="text-center" id="title">Flappy Bird</h2>
         <div class="w-100"></div>
         <div class="text-center">
-          <div class="img-fluid" alt="flappy-bird" id="anime">
+          <div class="img-fluid" alt="flappy-bird" id="fb">
           <script>
             var amination = bodymovin.loadAnimation({
-              container: document.getElementById('anime'),
+              container: document.getElementById('fb'),
               path: '7064-bird-fly.json',
               render: 'svg',
               loop: true,
@@ -169,10 +220,10 @@
         <h2 class="text-center" id="title">Tower Blocks</h2>
         <div class="w-100"></div>
         <div class="text-center">
-        <div class="img-fluid" alt="draw" id="anime">
+        <div class="img-fluid" alt="draw" id="tb">
         <script>
           var amination = bodymovin.loadAnimation({
-            container: document.getElementById('anime'),
+            container: document.getElementById('tb'),
             path: '113890-isometric-layers.json',
             render: 'svg',
             loop: true,
@@ -182,7 +233,7 @@
         </script>
         </div>
         </div>
-        <div class="w-100"></div><br>
+        <div  class="w-100"></div><br>
         <p class="text-center" id="text">Build a tower and balance as high as you can to achieve a high score!</p>
         <div class="w-100"></div>
         <div class="d-flex justify-content-center">
@@ -192,11 +243,11 @@
         <h2 class="text-center" id="title">Tetris</h2>
         <div class="w-100"></div>
         <div class="text-center">
-        <div class="img-fluid" alt="placeholder" id="anime">
+        <div class="img-fluid" alt="placeholder" id="t">
         </div>
         <script>
           var amination = bodymovin.loadAnimation({
-            container: document.getElementById('anime'),
+            container: document.getElementById('t'),
             path: '22294-tetris-game-animaation.json',
             render: 'svg',
             loop: true,
