@@ -1,18 +1,16 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>sign-up-sheet</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet'>
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
-  </head>
-  <body>
-    <style>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>sign-up-sheet</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+      <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+      <link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet'>
       
-    body {
+      <style>
+      
+      body {
         color: white;
         background-image: url('https://i.pinimg.com/originals/d3/ae/3e/d3ae3e84bb6e1c79bda04463f0dff387.jpg');
         background-repeat: no-repeat;
@@ -45,15 +43,20 @@
       #contact-submit {
         margin-left: 47%;
         margin-right: 47%
-    }
-    .form {
+      }
+
+      .form {
         height: 500px;
         width: 400px;
         margin-left: 30%;
         margin-right:30%   
-    }
+      }
 
     </style>
+    </head>
+  
+    <body>
+
     <nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary"  data-bs-theme="dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="#" id="header"><img src="https://th.bing.com/th/id/R.c6d4f53d4d840192a0294983d9e43364?rik=dbGjnXiht%2bqr5g&riu=http%3a%2f%2fblogs.bellevue.edu%2flibrary%2fwp-content%2fuploads%2f2017%2f01%2fVideo-Game-Controller-Icon-IDV-green.svg_-1024x1024.png&ehk=jRRgTQwyn%2fAVuo7Os92y0AjAu%2fUB5UXVrISj0hGq1SE%3d&risl=&pid=ImgRaw&r=0" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">Fun N Games!</a>
@@ -115,8 +118,8 @@
 		<h1 class="text-center">Sign up Form</h1>
 		</div>
 		<div class="form" id="add-contact">
-			<form id="add-contact-form">
-			<div class="form-row align-items-center">
+	<form id="add-contact-form" onsubmit="validateSubmit()" method="post">
+	<div class="form-row align-items-center">
     <div class="col-auto">
       <label class="sr-only" for="sign-up-name">Name</label>
       <input type="text" class="form-control mb-2" id="sign-up-name" placeholder="Jane Doe">
@@ -150,13 +153,8 @@
             <label class="form-check-label" for="female">Female</label>
           </div></div><br>
           <div class="form-group">
-            <select class="custom-select" required id="age-range">
-                <option selected>What is your age range?</option>
-                <option value="0">10 or below</option>
-                <option value="1">10-15</option>
-                <option value="2">16-20</option>
-                <option value="3">21 or older</option>
-              </select>
+            <label for="age">Age</label>
+            <input type="age" id="age-range" class="form-control" required>
           </div><br>
           <div class="form-group">
             <div class="custom-control custom-checkbox">
@@ -164,7 +162,6 @@
                 <label class="custom-control-label" for="customCheck1">Send me notifications</label>
               </div>
           </div>
-
           <br>
           <input type="submit" value="Submit" class="btn btn-primary" id="contact-submit">
       </form>
@@ -172,10 +169,10 @@
   </div><!-- end add container --> 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="signup.js" defer></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 <script src="function.js" defer></script>
+<script src="signup.js" defer></script>
 </body>
 </html>
