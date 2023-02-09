@@ -26,8 +26,7 @@ $(document).ready(function () {
     let settings = {
       async: true,
       crossDomain: true,
-      //      url: "https://leaderboard-6a74.restdb.io/rest/user-info",
-      url: "https://leaderboard-5aec.restdb.io/rest/user-info",
+      url: "https://leaderboard-6a74.restdb.io/rest/user-info",
       method: "POST", //[cher] we will use post to send info
       headers: {
         "content-type": "application/json",
