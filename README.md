@@ -37,10 +37,10 @@ In addition, you may also use this section to discuss plans for additional featu
 ## Technologies Used
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 - I followed according to youtube video (https://www.youtube.com/watch?v=xgU8kg_uFr0) to use lottie animation for the main page.
--The game tic tac toe is refered to a youtube video(https://www.youtube.com/watch?v=B3pmT7Cpi24) that show how to create tic tac toe with html, css and js.
--The game tower blocks is refered to a youtube video(https://www.youtube.com/watch?v=lqCev8OM1y8\) that show how to make the game with html, css and js.
--The tetris game code is taken from: https://gist.github.com/straker/3c98304f8a6a9174efd8292800891ea1
--The flappy bird game code is taken from w3schools(https://www.w3schools.com/graphics/game_intro.asp)
+- The game tic tac toe is refered to a youtube video(https://www.youtube.com/watch?v=B3pmT7Cpi24) that show how to create tic tac toe with html, css and js.
+- The game tower blocks is refered to a youtube video(https://www.youtube.com/watch?v=lqCev8OM1y8\) that show how to make the game with html, css and js.
+- The tetris game code is taken from: https://gist.github.com/straker/3c98304f8a6a9174efd8292800891ea1
+- The flappy bird game code is taken from w3schools(https://www.w3schools.com/graphics/game_intro.asp)
 
 ## Testing
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
@@ -62,5 +62,6 @@ If this section grows too long, you may want to split it off into a separate fil
 ### Media
 The photos used in this site were obtained from ...
 - The background for the main page is from online, i wanted to find a picture where someone is playing online games, hence i used this picture.(https://www.wallpapertip.com/wmimgs/155-1551194_anime-gamer-girl-wallpaper-4k.jpg)
+- The backround used on the sign-up and flappy bird id obtained from online(https://i.pinimg.com/originals/d3/ae/3e/d3ae3e84bb6e1c79bda04463f0dff387.jpg)
 ### Acknowledgements
-I received inspiration for this project from X
+
