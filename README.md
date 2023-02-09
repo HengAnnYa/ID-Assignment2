@@ -12,8 +12,13 @@ User Stories:
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
 
-As a user type, I want to perform an action, so that I can achieve a goal.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory) Include the Adobe XD wireframe as a folder. You can include the XD share url.
+Wireframe links (does not work on microsoft edge):
+- main page: https://xd.adobe.com/view/bd9eac8a-27f7-4c7c-a4b7-1b9859a09083-e8cd/
+- tic-tac-toe (mobile): https://xd.adobe.com/view/c3cda8db-9b2b-4418-a5a9-c22361474787-969e/
+- tic-tac-toe (web): https://xd.adobe.com/view/0f608188-8b48-47e9-aff9-739937d7fd38-5a33/
+- tower blocks (mobile): https://xd.adobe.com/view/4bfcd2b8-4588-454d-af27-821d80c72cd9-1eaf/
+- tower blocks (web): https://xd.adobe.com/view/19d2829a-f731-44fd-b4d0-edec7f678139-4c81/
+- game menu page: https://xd.adobe.com/view/0bb70aa7-e067-4308-a1c9-b15cb101a607-5ee4/
 
 ## Features
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
