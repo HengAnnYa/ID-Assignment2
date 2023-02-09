@@ -47,16 +47,15 @@ In this section, you should mention all of the languages, frameworks, libraries,
 ## Testing
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
-- Contact form:
-  1. Go to the "Contact Us" page
+- Sign up form:
+  1. Go to the "Sign Up" section under the settings dropdown. The user will be be prompted to make an account and be redirected to a signup sheet. 
   2. Try to submit the empty form and verify that an error message about the required fields appears
   3. Try to submit the form with an invalid email address and verify that a relevant error message appears
   4. Try to submit the form with all inputs valid and verify that a success message appears.
-  5. In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+- Responsive:
+  1. Our navbar is responsive, collapsing into a hamburger dropdown menu on smaller screens and expanding into a full bar on larger screens. 
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 ## Credits
 ### Content
