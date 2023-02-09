@@ -1,12 +1,9 @@
 $(document).ready(function () {
-  //what kind of interface we want at the start
   const APIKEY = "63d38cac3bc6b255ed0c435d";
-  getSignUp();
+
   $("#add-update-msg").hide();
 
-  //[STEP 1]: Create our submit form listener
   $("#contact-submit").on("click", function (e) {
-    //prevent default action of the button
     e.preventDefault();
 
     let nameS = $("#sign-up-name").val();
@@ -24,6 +21,7 @@ $(document).ready(function () {
       password: passwordI,
       age: ageR,
     };
+    console.log(jsondata);
 
     let settings = {
       async: true,
@@ -38,10 +36,7 @@ $(document).ready(function () {
       processData: false,
       data: JSON.stringify(jsondata),
       beforeSend: function () {
-        //@TODO use loading bar instead
-        //disable our button or show loading bar
         $("#contact-submit").prop("disabled", true);
-        //clear our form using the form id and triggering it's reset feature
         $("#add-contact-form").trigger("reset");
       },
     };
@@ -50,8 +45,10 @@ $(document).ready(function () {
       console.log(response);
 
       $("#contact-submit").prop("disabled", false);
-
-      getSignUp();
     });
   });
 });
+
+function validateSubmit() {
+  alert("Your form has been submitted. Thanks for signing up!");
+}
