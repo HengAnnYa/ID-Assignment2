@@ -7,6 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet'>
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.10.2/lottie.min.js"></script>
   </head>
   <body>
     <style>
@@ -14,18 +15,24 @@
         height: 200px;
       }
 
-      #image {
-        max-width: 50%;
+      
+      #anime {
+        max-width: 100%;
+        max-height: 100%;
+        display: flex;
+        justify-content: space-around;
       }
+      
       #row-1 {
         margin-top: 5%;
       }
       #row-2 {
-        margin-top: 25%
+        margin-top: 25%;
+        margin-bottom: 25%;
       }
       body {
         color: white;
-        background-image: url('https://i.pinimg.com/originals/d3/ae/3e/d3ae3e84bb6e1c79bda04463f0dff387.jpg');
+        background-image: url('https://www.wallpapertip.com/wmimgs/155-1551194_anime-gamer-girl-wallpaper-4k.jpg');
         background-repeat: no-repeat;
         background-attachment: fixed;  
         background-size: cover;
@@ -113,7 +120,18 @@
         <h2 class="text-center" id="title">Tic-Tac-Toe</h2>
         <div class="w-100"></div>
         <div class="text-center">
-        <img src="https://th.bing.com/th/id/OIP.HhrjzrZQIQRMLXHW3YM44gHaHa?pid=ImgDet&rs=1" class="img-fluid" alt="tic-tac-toe" id="image">
+        <div class="img-fluid" alt="tic-tac-toe" id="anime">
+        <script>
+          var amination = bodymovin.loadAnimation({
+            container: document.getElementById('anime'),
+            path: '119665-tic-tac-toe-1.json',
+            render: 'svg',
+            loop: true,
+            autoplay: true,
+            name: 'ttt'
+          });
+        </script>
+        </div>
         </div>
         <div class="w-100"></div><br>
         <p class="text-center" id="text">Enjoy a classic game of tic-tac-toe with your friends!</p>
@@ -125,7 +143,18 @@
         <h2 class="text-center" id="title">Flappy Bird</h2>
         <div class="w-100"></div>
         <div class="text-center">
-          <img src="https://prod.cloud.rockstargames.com/crews/sc/0556/10149530/publish/emblem/emblem_512.png" class="img-fluid" alt="flappy-bird" id="image">
+          <div class="img-fluid" alt="flappy-bird" id="anime">
+          <script>
+            var amination = bodymovin.loadAnimation({
+              container: document.getElementById('anime'),
+              path: '7064-bird-fly.json',
+              render: 'svg',
+              loop: true,
+              autoplay: true,
+              name: 'fb'
+            });
+          </script>
+          </div>
         </div>
         <div class="w-100"></div><br>
         <p class="text-center" id="text">Challenge yourself to a classic game of flappy bird!</p>
@@ -139,7 +168,18 @@
         <h2 class="text-center" id="title">Tower Blocks</h2>
         <div class="w-100"></div>
         <div class="text-center">
-        <img src="https://lh3.googleusercontent.com/00UpPp5BsJJ7WGAEF2SEDbNCtYYC5wdqvMQu_vq7d1XagdBYf01ym-QDGrCdWOREkjCY=w1200-h630-p-k-no-nu" class="img-fluid" alt="draw" id="image">
+        <div class="img-fluid" alt="draw" id="anime">
+        <script>
+          var amination = bodymovin.loadAnimation({
+            container: document.getElementById('anime'),
+            path: '113890-isometric-layers.json',
+            render: 'svg',
+            loop: true,
+            autoplay: true,
+            name: 'tb'
+          });
+        </script>
+        </div>
         </div>
         <div class="w-100"></div><br>
         <p class="text-center" id="text">Build a tower and balance as high as you can to achieve a high score!</p>
@@ -151,7 +191,18 @@
         <h2 class="text-center" id="title">Tetris</h2>
         <div class="w-100"></div>
         <div class="text-center">
-        <img src="https://th.bing.com/th/id/OIP.yJFr6td2gzQojH8Cp2Vv-QHaHa?pid=ImgDet&w=500&h=500&rs=1" class="img-fluid" alt="placeholder" id="image">
+        <div class="img-fluid" alt="placeholder" id="anime">
+        </div>
+        <script>
+          var amination = bodymovin.loadAnimation({
+            container: document.getElementById('anime'),
+            path: '22294-tetris-game-animaation.json',
+            render: 'svg',
+            loop: true,
+            autoplay: true,
+            name: 'tb'
+          });
+        </script>
         </div>
         <div class="w-100"></div><br>
         <p class="text-center" id="text">It's simply tetris.</p>

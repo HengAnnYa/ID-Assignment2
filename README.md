@@ -36,10 +36,9 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ## Technologies Used
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
-- JQuery
-
-The project uses JQuery to simplify DOM manipulation.
+- I followed according to youtube video (https://www.youtube.com/watch?v=xgU8kg_uFr0) to use lottie animation for the main page.
+-The game tic tac toe is refered to a youtube video(https://www.youtube.com/watch?v=B3pmT7Cpi24) that show how to create tic tac toe with html, css and js.
+-The game tower blocks is refered to a youtube video(https://www.youtube.com/watch?v=lqCev8OM1y8\) that show how to make the game with html, css and js.
 
 ## Testing
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
@@ -57,8 +56,9 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ## Credits
 ### Content
-The text for section Y was copied from the Wikipedia article Z
+
 ### Media
 The photos used in this site were obtained from ...
+- The background for the main page is from online, i wanted to find a picture where someone is playing online games, hence i used this picture.(https://www.wallpapertip.com/wmimgs/155-1551194_anime-gamer-girl-wallpaper-4k.jpg)
 ### Acknowledgements
 I received inspiration for this project from X
