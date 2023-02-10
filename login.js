@@ -1,23 +1,6 @@
-import React from "react"
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
 const inputs = document.querySelectorAll(".input-field");
 const toggle_btn = document.querySelectorAll(".toggle");
 const main = document.querySelector("main");
-
-function App() {
-  const showToastMessage = () => {
-      toast.success('Success Notification !', {
-          position: toast.POSITION.TOP_RIGHT
-      });
-  };
-  return (
-      <div>
-          <button onClick={showToastMessage}>Notify</button>
-          <ToastContainer />
-      </div>
-  );
-}
 
 inputs.forEach((inp) => {
   inp.addEventListener("focus", () => {
