@@ -1,8 +1,6 @@
 $(document).ready(function () {
   const APIKEY = "63d38cac3bc6b255ed0c435d";
 
-  $("#add-update-msg").hide();
-
   $("#contact-submit").on("click", function (e) {
     e.preventDefault();
 
@@ -17,18 +15,14 @@ $(document).ready(function () {
 
     if (nameS == "") {
       window.alert("Name field is empty.");
-    }
-
-    if (emailC == "") {
+    } else if (emailC == "") {
       window.alert("Email field is empty.");
-    }
-
-    if (usernameN == "") {
+    } else if (usernameN == "") {
       window.alert("Username field is empty.");
-    }
-
-    if (passwordI == "") {
+    } else if (passwordI == "") {
       window.alert("Password field is empty.");
+    } else {
+      window.alert("Submit successful. Thanks for signing up!");
     }
 
     let jsondata = {
