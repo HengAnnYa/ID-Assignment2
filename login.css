@@ -8,7 +8,6 @@
   box-sizing: border-box;
 }
 
-body,
 input {
   font-family: "Poppins", sans-serif;
 }
@@ -16,8 +15,12 @@ input {
 main {
   width: 100%;
   min-height: 100vh;
+  color: white;
+    background-image: url('https://i.pinimg.com/originals/d3/ae/3e/d3ae3e84bb6e1c79bda04463f0dff387.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
   overflow: hidden;
-  background-color: #ff8c6b;
   padding: 2rem;
   display: flex;
   align-items: center;
