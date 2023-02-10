@@ -147,22 +147,22 @@ label {
 }
 
 .sign-btn:hover {
-  background-color: #8371fd;
-}
-
-.text {
-  color: #bbb;
-  font-size: 0.7rem;
-}
-
-.text a {
-  color: #bbb;
-  transition: 0.3s;
-}
-
-.text a:hover {
-  color: #8371fd;
-}
+    background-color: #8371fd;
+  }
+  
+  .text {
+    color: #bbb;
+    font-size: 0.7rem;
+  }
+  
+  .text a {
+    color: #bbb;
+    transition: 0.3s;
+  }
+  
+  .text a:hover {
+    color: #8371fd;
+  }
 
 main.sign-up-mode form.sign-in-form {
   opacity: 0;
@@ -172,37 +172,6 @@ main.sign-up-mode form.sign-in-form {
 main.sign-up-mode form.sign-up-form {
   opacity: 1;
   pointer-events: all;
-}
-
-.images-wrapper {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
-}
-
-.image {
-  width: 100%;
-  grid-column: 1/2;
-  grid-row: 1/2;
-  opacity: 0;
-  transition: opacity 0.3s, transform 0.5s;
-}
-
-.img-1 {
-  transform: translate(0, -50px);
-}
-
-.img-2 {
-  transform: scale(0.4, 0.5);
-}
-
-.img-3 {
-  transform: scale(0.3) rotate(-20deg);
-}
-
-.image.show {
-  opacity: 1;
-  transform: none;
 }
 
 .text-slider {
@@ -271,18 +240,6 @@ main.sign-up-mode form.sign-up-form {
 
   main.sign-up-mode form.sign-up-form {
     transform: translateX(0%);
-  }
-
-  .carousel {
-    position: revert;
-    height: auto;
-    width: 100%;
-    padding: 3rem 2rem;
-    display: flex;
-  }
-
-  .images-wrapper {
-    display: none;
   }
 
   .text-slider {
