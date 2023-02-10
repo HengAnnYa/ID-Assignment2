@@ -1,7 +1,3 @@
-import { useEffect, useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
-import { toast } from "react-toastify";
-
 $(document).ready(function () {
     const APIKEY = "63d38cac3bc6b255ed0c435d";
   
@@ -43,7 +39,10 @@ $(document).ready(function () {
         $("#contact-submit").prop("disabled", false);
       });
     });
-  });
+
+    import { useEffect, useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
+import { toast } from "react-toastify";
 
 const Login = () => {
     const [username, usernameupdate] = useState('');
@@ -162,3 +161,4 @@ sessionStorage.clear();
 }
 
 export default Login;
+  });
