@@ -5,12 +5,15 @@ $(document).ready(function () {
 
   $("#contact-submit").on("click", function (e) {
     e.preventDefault();
+    validateSubmit();
 
     let nameS = $("#sign-up-name").val();
     let emailC = $("#contact-email").val();
     let usernameN = $("#new-user").val();
     let passwordI = $("#inputPassword").val();
-    let genderN = $("#gender").val();
+    let genderN = document.querySelector(
+      'input[name="gender-values"]:checked'
+    ).value;
     let ageR = $("#age-range").val();
 
     let jsondata = {
@@ -48,7 +51,3 @@ $(document).ready(function () {
     });
   });
 });
-
-function validateSubmit() {
-  alert("Your form has been submitted. Thanks for signing up!");
-}

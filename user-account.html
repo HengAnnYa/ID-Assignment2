@@ -57,7 +57,27 @@
 
     </style>
     </head>
-  
+  <script>
+    $("contact-submit").click(function(event) {
+      event.preventDefault();
+      $("<div>").append("default" + event.type + "prevented").appendTo("#log");});
+
+      function validateSubmit() {
+        var empt = document.forms["sign-up-form"]["name"].value;
+          console.log(empt)
+          if (empt == "Jane Doe")
+          {
+            alert("Please input a name");
+            return false;
+          }
+          else
+          {
+            alert("Your form has been submitted. Thanks for signing up!")
+            return true;
+          };
+}
+
+  </script>
     <body>
 
     <nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary"  data-bs-theme="dark">
@@ -121,11 +141,11 @@
 		<h1 class="text-center">Sign up Form</h1>
 		</div>
 		<div class="form" id="add-contact">
-	<form id="add-contact-form" onsubmit="validateSubmit()" method="post">
+	<form id="add-contact-form" name="sign-up-form" method="post">
 	<div class="form-row align-items-center">
     <div class="col-auto">
       <label class="sr-only" for="sign-up-name">Name</label>
-      <input type="text" class="form-control mb-2" id="sign-up-name" placeholder="Jane Doe" required="true">
+      <input type="text" class="form-control mb-2" id="sign-up-name" name="name" placeholder="Jane Doe" required="true">
     </div>
     <div class="col-auto">
       <label class="sr-only" for="new-user">Select new Username</label>
@@ -148,11 +168,11 @@
           <div class="form-group">
             <label for="gender">Gender</label><br>
           <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="gender" value="male">
+            <input class="form-check-input" type="radio" name="gender-values" id="gender" value="male">
             <label class="form-check-label" for="male">Male</label>
           </div>
           <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="gender" value="female">
+            <input class="form-check-input" type="radio" name="gender-values" id="gender" value="female">
             <label class="form-check-label" for="female">Female</label>
           </div></div><br>
           <div class="form-group">
@@ -166,7 +186,7 @@
               </div>
           </div>
           <br>
-          <input type="submit" value="Submit" class="btn btn-primary" id="contact-submit">
+          <input type="submit" value="Submit" class="btn btn-primary" id="contact-submit" onclick="validateSubmit()">
       </form>
     </div>
   </div>

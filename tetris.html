@@ -94,7 +94,7 @@
                 </div>
               </div>
             </div>
-          </nav><br>
+          </nav>
         <div class="game-area">
           <canvas width="320" height="640" id="game"></canvas> 
             </div>
@@ -226,6 +226,7 @@
             context.textAlign = 'center';
             context.textBaseline = 'middle';
             context.fillText('GAME OVER!', canvas.width / 2, canvas.height / 2);
+            window.location.href = 'tetris-game-over.html'
           }
           
           const canvas = document.getElementById('game');

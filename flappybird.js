@@ -77,6 +77,7 @@ function updateGameArea() {
   for (i = 0; i < myObstacles.length; i += 1) {
     if (myGamePiece.crashWith(myObstacles[i])) {
       myGameArea.stop();
+      window.location.href = "flappy-bird-game-over.html";
       return;
     }
   }
