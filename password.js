@@ -160,5 +160,4 @@ sessionStorage.clear();
     );
 }
 
-export default Login;
   });
