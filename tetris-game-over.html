@@ -20,40 +20,40 @@
         background-size: cover;
       }
 
-      .text {
+      #btn {
         position: absolute;
-        top: 30%;
-        width: 100%;
-        text-align: center;
-      }
-      #title {
-        font-family: 'Audiowide';
-        font-size: 55px;
-        position: absolute;
-        top: 30%;
-        width: 100%;
-        text-align: center;
-      }
-      #quit-btn {
-        position: absolute;
-        top: 60%;
+        top: 48%;
         margin-left:45%;
         margin-right:45%;
         text-align: center;
         width:10%;
       }
-      #play-again-btn {
-        position: absolute;
-        top: 50%;
-        margin-left:45%;
-        margin-right:45%;
-        text-align: center;
-        width:10%;
+
+      #play-again {
+        margin-bottom: 10px
       }
+
+      #quit {
+        width: 100%
+      }
+
     </style>
-        <h1 id="title" class="text-center">GAME OVER</h1>
-        <a href="tetris.html" type="button" class="btn btn-primary" id="play-again-btn">Play Again</a></div>
-        <a href="index.html" type="button" class="btn btn-primary" id="quit-btn">Quit</a></div>
+        <div class="img-fluid" alt="game-over" id="gg">
+        </div>
+        <script>
+          var amination = bodymovin.loadAnimation({
+            container: document.getElementById('gg'),
+            path: '56450-game-over.json',
+            render: 'svg',
+            loop: true,
+            autoplay: true,
+            name: 'go'
+          });
+        </script>
+        <div id="btn" class="row align-items-center">
+        <a href="tetris.html" type="button" class="btn btn-primary" id="play-again">Play Again</a>
+        <a href="index.html" type="button" class="btn btn-primary" id="quit">Quit</a>
+          </div>
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>

@@ -1,7 +1,7 @@
 # ID-Assignment2
 
-Your Project's Name
-For our project, we are doing a game website with multiple minigames available for the user to pick from and play. There will be various incentives for them to play, such as leaderboards and a point system for them to unlock rewards. They can also add friends and play with them.
+## Fun N Games
+For our project, we are doing a game website named 'fun n games', with multiple minigames available for the user to pick from and play. There will be various incentives for them to play, such as leaderboards and a point system for them to unlock rewards. They can also add friends and play with them.
 
 ## Design Process
 This website is for anyone who likes simple games and want something fun to do in their free time. It can help relieve bordem and also helps them socialise with their friends through friendly competitions to see who can get the best scores. 
@@ -10,9 +10,7 @@ User Stories:
 - As a young child, I want a fun and easy game to play with my friends. This website helps achieve this by being easy to use with simple games I can easily play and understand.
 - As a student, I want a simple game I can play during short free periods I might have between lessons to destress. This website helps achieve that as the games are simple and not addicting, and will not be too distracting from my studies. 
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-
-Wireframe links (does not work on microsoft edge):
+Wireframe links:
 - main page: https://xd.adobe.com/view/bd9eac8a-27f7-4c7c-a4b7-1b9859a09083-e8cd/
 - tic-tac-toe (mobile): https://xd.adobe.com/view/c3cda8db-9b2b-4418-a5a9-c22361474787-969e/
 - tic-tac-toe (web): https://xd.adobe.com/view/0f608188-8b48-47e9-aff9-739937d7fd38-5a33/
@@ -26,8 +24,8 @@ In this section, you should go over the different parts of your project, and des
 ### Existing Features
 - Feature 1 - 4 simple games for users to pick and play.
 - Feature 2 - Menu and setting options
-- Feature 3 - Account feature
-- Feature 4 - Game over screens and 'play again' options upon a game ending. 
+- Feature 3 - Account feature with sign up and sign in 
+- Feature 4 - Game over screens and 'play again' and 'quit to menu' options upon a game ending. 
 - Feature 5 - Navbar with dropdowns that link to main page and allows user to access user account. 
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
@@ -49,6 +47,7 @@ In this section, you should mention all of the languages, frameworks, libraries,
 - The flappy bird game code is taken from w3schools(https://www.w3schools.com/graphics/game_intro.asp)
 - The nav bar is obtained from bootstrap tutorials(https://getbootstrap.com/docs/5.1/components/navbar/)
 - For the login page i reffered to youtube video(https://www.youtube.com/watch?v=fC3qLUWf_Lk)
+- to store user data, we used rest.db to make a database, which can be found here: https://leaderboard-6a74.restdb.io/
 
 ## Testing
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
@@ -69,5 +68,5 @@ For any scenarios that have not been automated, test the user stories manually a
 ### Media
 - The background for the main page is from online, i wanted to find a picture where someone is playing online games, hence i used this picture.(https://www.wallpapertip.com/wmimgs/155-1551194_anime-gamer-girl-wallpaper-4k.jpg)
 - The backround used on the sign-up and flappy bird id obtained from online(https://i.pinimg.com/originals/d3/ae/3e/d3ae3e84bb6e1c79bda04463f0dff387.jpg)
-### Acknowledgements
-
+- The site icon found in the navbar is sourced from the internet: https://th.bing.com/th/id/R.c6d4f53d4d840192a0294983d9e43364?rik=dbGjnXiht%2bqr5g&riu=http%3a%2f%2fblogs.bellevue.edu%2flibrary%2fwp-content%2fuploads%2f2017%2f01%2fVideo-Game-Controller-Icon-IDV-green.svg_-1024x1024.png&ehk=jRRgTQwyn%2fAVuo7Os92y0AjAu%2fUB5UXVrISj0hGq1SE%3d&risl=&pid=ImgRaw&r=0
+- The user icon is sourced from: https://cdn1.iconfinder.com/data/icons/creative-round-ui/223/8-512.png
