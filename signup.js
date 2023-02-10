@@ -5,7 +5,6 @@ $(document).ready(function () {
 
   $("#contact-submit").on("click", function (e) {
     e.preventDefault();
-    validateSubmit();
 
     let nameS = $("#sign-up-name").val();
     let emailC = $("#contact-email").val();
@@ -15,6 +14,22 @@ $(document).ready(function () {
       'input[name="gender-values"]:checked'
     ).value;
     let ageR = $("#age-range").val();
+
+    if (nameS == "") {
+      window.alert("Name field is empty.");
+    }
+
+    if (emailC == "") {
+      window.alert("Email field is empty.");
+    }
+
+    if (usernameN == "") {
+      window.alert("Username field is empty.");
+    }
+
+    if (passwordI == "") {
+      window.alert("Password field is empty.");
+    }
 
     let jsondata = {
       name: nameS,
