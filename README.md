@@ -2,7 +2,7 @@
 
 ## Fun N Games
 For our project, we are doing a game website named 'fun n games', with multiple minigames available for the user to pick from and play. There will be various incentives for them to play, such as leaderboards and a point system for them to unlock rewards. They can also add friends and play with them.
-- Website link: https://github.com/HengAnnYa/ID-Assignment2.git
+- Website link: [https://github.com/HengAnnYa/ID-Assignment2.git](https://hengannya.github.io/ID-Assignment2/)
 
 ## Design Process
 This website is for anyone who likes simple games and want something fun to do in their free time. It can help relieve bordem and also helps them socialise with their friends through friendly competitions to see who can get the best scores. 
