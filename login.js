@@ -12,6 +12,7 @@ inputs.forEach((inp) => {
   });
 });
 
+
 toggle_btn.forEach((btn) => {
   btn.addEventListener("click", () => {
     main.classList.toggle("sign-up-mode");
@@ -29,3 +30,40 @@ function moveSlider() {
   textSlider.style.transform = `translateY(${-(index - 1) * 2.2}rem)`;
 
 };
+
+$(document).ready(function () {
+  const APIKEY = "63d38cac3bc6b255ed0c435d";
+
+  $("#contact-submit").on("click", function (e) {
+    e.preventDefault();
+
+    let usernameN = $("#username").val();
+    let passwordI = $("#password").val();
+
+    if (usernameN == "") {
+      window.alert("Username field is empty.");
+    } else if (passwordI == "") {
+      window.alert("Password field is empty.");
+    } else {
+      window.alert("Submit successful. Thanks for signing up!");
+    }
+
+    let jsondata = {
+      username: usernameN,
+      password: passwordI,
+    };
+    console.log(jsondata);
+
+    let settings = {
+      async: true,
+      crossDomain: true,
+      url: "https://leaderboard-6a74.restdb.io/rest/user-info",
+      method: "GET", //[cher] we will use post to send info
+      headers: {
+        "content-type": "application/json",
+        "x-apikey": APIKEY,
+        "cache-control": "no-cache",
+      }
+    }
+});
+});
