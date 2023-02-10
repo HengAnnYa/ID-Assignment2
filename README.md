@@ -2,6 +2,7 @@
 
 ## Fun N Games
 For our project, we are doing a game website named 'fun n games', with multiple minigames available for the user to pick from and play. There will be various incentives for them to play, such as leaderboards and a point system for them to unlock rewards. They can also add friends and play with them.
+- Website link: https://hengannya.github.io/ID-Assignment2/
 
 ## Design Process
 This website is for anyone who likes simple games and want something fun to do in their free time. It can help relieve bordem and also helps them socialise with their friends through friendly competitions to see who can get the best scores. 
@@ -10,7 +11,7 @@ User Stories:
 - As a young child, I want a fun and easy game to play with my friends. This website helps achieve this by being easy to use with simple games I can easily play and understand.
 - As a student, I want a simple game I can play during short free periods I might have between lessons to destress. This website helps achieve that as the games are simple and not addicting, and will not be too distracting from my studies. 
 
-Wireframe links (does not work on microsoft edge):
+Wireframe links:
 - main page: https://xd.adobe.com/view/bd9eac8a-27f7-4c7c-a4b7-1b9859a09083-e8cd/
 - tic-tac-toe (mobile): https://xd.adobe.com/view/c3cda8db-9b2b-4418-a5a9-c22361474787-969e/
 - tic-tac-toe (web): https://xd.adobe.com/view/0f608188-8b48-47e9-aff9-739937d7fd38-5a33/
