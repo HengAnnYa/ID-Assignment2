@@ -48,6 +48,7 @@ In this section, you should mention all of the languages, frameworks, libraries,
 - The tetris game code is taken from: https://gist.github.com/straker/3c98304f8a6a9174efd8292800891ea1
 - The flappy bird game code is taken from w3schools(https://www.w3schools.com/graphics/game_intro.asp)
 - The nav bar is obtained from bootstrap tutorials(https://getbootstrap.com/docs/5.1/components/navbar/)
+- For the login page i reffered to youtube video(https://www.youtube.com/watch?v=fC3qLUWf_Lk)
 
 ## Testing
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
